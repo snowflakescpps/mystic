@@ -1,5 +1,5 @@
 <p align="center">
-   <img alt="houdini-asyncio" src="https://i.dlpng.com/static/png/5427501-team-mystic-png-94-images-in-collection-page-1-team-mystic-png-365_588_preview.png">
+   <img alt="houdini-asyncio" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/dba782a9-b78c-4f63-8302-dbafc8ae6b7a/dacc799-135bfc93-6452-416e-b588-0044eda9b17e.png">
 </p>
 
 #
