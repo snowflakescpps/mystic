@@ -1,5 +1,5 @@
 <p align="center">
-   <img alt="houdini-asyncio" src="https://icon-library.com/images/team-mystic-icon/team-mystic-icon-2.jpg">
+   <img alt="houdini-asyncio" src="https://i.dlpng.com/static/png/5427501-team-mystic-png-94-images-in-collection-page-1-team-mystic-png-365_588_preview.png">
 </p>
 
 #
