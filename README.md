@@ -9,7 +9,7 @@
 
 <p align="center">Mystic is a Club Penguin Private Server written in Python 3.</p>
 
-- [Join our Discord server](https://discord.gg/cgSz2XxbAx)
+- [Unete a nuestro servidor de Discord](https://discord.gg/cgSz2XxbAx)
 
 ## Caracteristicas :space_invader:
 
