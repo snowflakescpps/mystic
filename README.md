@@ -7,7 +7,7 @@
   </a>
 </p>
 
-<p align="center">Mystic is a Club Penguin Private Server written in Python 3.</p>
+<p align="center">Mystic es un servidor privado de Club Penguin programado en Python 3.</p>
 
 - [Unete a nuestro servidor de Discord](https://discord.gg/cgSz2XxbAx)
 
