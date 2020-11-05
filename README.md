@@ -1,4 +1,10 @@
 <p align="center">
+   <img alt="houdini-asyncio" src="https://icon-library.com/images/team-mystic-icon/team-mystic-icon-2.jpg">
+</p>
+
+#
+
+<p align="center">
   <a href="https://discord.gg/cgSz2XxbAx">
     <img
       alt="Snowflakes Discord"
