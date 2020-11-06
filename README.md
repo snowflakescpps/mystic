@@ -54,11 +54,11 @@ MIT Licensed
 
 ## Features: :space_invader:
 
--:clock3: **Cross Epoch**: Different clients can play together on the same server.
--:exclamation: **Commands**: Built-in extensible command API.
--:electric_plug: **Powerful Plugin API**: Quick and easy to write your own plugins.
--:speech_balloon: **Chat-filter**: Filter trolls with minimal settings. This serves to block words / links etc that you do not want in your CPPS.
--:shield: **Permissions**: API to restrict access to server functionality and commands.
+- :clock3: **Cross Epoch**: Different clients can play together on the same server.
+- :exclamation: **Commands**: Built-in extensible command API.
+- :electric_plug: **Powerful Plugin API**: Quick and easy to write your own plugins.
+- :speech_balloon: **Chat-filter**: Filter trolls with minimal settings. This serves to block words / links etc that you do not want in your CPPS.
+- :shield: **Permissions**: API to restrict access to server functionality and commands.
 
 ## Installation
 
