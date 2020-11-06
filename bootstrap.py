@@ -2,28 +2,28 @@ import argparse
 import asyncio
 import logging
 
-from houdini.constants import ClientType, ConflictResolution, Language
-from houdini.houdini import Houdini
+from mystic.constants import ClientType, ConflictResolution, Language
+from mystic.mystic import Mystic
 
 if __name__ == '__main__':
-    logger = logging.getLogger('houdini')
+    logger = logging.getLogger('mystic')
 
-    parser = argparse.ArgumentParser(description='Boot a Houdini server')
+    parser = argparse.ArgumentParser(description='Boot a Mystic server')
     parser.add_argument('type', action='store', default='login',
                         choices=['login', 'world'], help='Name of the server to boot')
 
-    parser.add_argument('-id', action='store', default=3100, type=int, help='Houdini server ID')
-    parser.add_argument('-n', '--name', action='store', help='Houdini server name')
+    parser.add_argument('-id', action='store', default=3100, type=int, help='Mystic server ID')
+    parser.add_argument('-n', '--name', action='store', help='Mystic server name')
     parser.add_argument('-a', '--address', action='store', default='0.0.0.0',
-                        help='Houdini server address')
-    parser.add_argument('-p', '--port', action='store', help='Houdini server port', default=None, type=int)
+                        help='Mystic server address')
+    parser.add_argument('-p', '--port', action='store', help='Mystic server port', default=None, type=int)
     parser.add_argument('-c', '--capacity', action='store', default=200,
-                        help='Houdini server capacity', type=int)
+                        help='Mystic server capacity', type=int)
     parser.add_argument('-C', '--cache-expiry', dest='cache_expiry', action='store', default=3600,
                         help='Cache expiry (seconds)', type=int)
     parser.add_argument('-P', '--plugins', action='store', default='*',
                         nargs='*', help='Plugins to load')
-    parser.add_argument('-l', '--lang', action='store', default='en', help='Houdini language',
+    parser.add_argument('-l', '--lang', action='store', default='en', help='Mystic language',
                         choices=['en', 'fr', 'pt', 'es', 'de', 'ru'])
     parser.add_argument('-tz', '--timezone', action='store', default='America/Vancouver',
                         help='Server timezone')
@@ -118,7 +118,7 @@ if __name__ == '__main__':
                               default='legacy',
                               help='Default client when multi-client is off')
     client_group.add_argument('-k', '--auth-key', action='store',
-                              default='houdini',
+                              default='mystic',
                               help='Static key to use in place of the deprecated random key')
     client_group.add_argument('-kt', '--auth-ttl', action='store', type=int, default=3000,
                               help='Auth key TTL (seconds)')
@@ -136,7 +136,7 @@ if __name__ == '__main__':
                                       exception=ConflictResolution.Exception).get(args.command_conflict_mode)
     args.default_client = dict(legacy=ClientType.Legacy, vanilla=ClientType.Vanilla).get(args.default_client)
 
-    factory_instance = Houdini(args)
+    factory_instance = Mystic(args)
     try:
         asyncio.run(factory_instance.start())
     except KeyboardInterrupt:
