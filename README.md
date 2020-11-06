@@ -45,3 +45,38 @@ Si tiene sugerencias sobre cómo se puede mejorar este proyecto o desea informar
 ## Licencia
 
 MIT Licensed
+
+<p align = "center"><h3> English</h3></p>
+
+<p align = "center"> Mystic is a private Club Penguin server programmed in Python 3. </p>
+
+- [Join our Discord server] (https://discord.gg/cgSz2XxbAx)
+
+## Features: space_invader:
+
+-: clock3: ** Cross Epoch **: Different clients can play together on the same server.
+-: exclamation: ** Commands **: Built-in extensible command API.
+-: electric_plug: ** Powerful Plugin API **: Quick and easy to write your own plugins.
+-: speech_balloon: ** Chat-filter **: Filter trolls with minimal settings. This serves to block words / links etc that you do not want in your CPPS.
+-: shield: ** Permissions **: API to restrict access to server functionality and commands.
+
+## Installation
+
+Mystic can be run as a normal Python program on any operating system.
+
+`` `shell
+$ git clone https://github.com/snowflakescpps/mystic
+$ cd mystic
+$ pip install -r requirements.txt
+$ python bootstrap.py login
+`` ''
+
+## Contributing
+
+: heartpulse: We are so happy to hear of your interest!
+
+If you have suggestions on how this project can be improved or want to report a bug, please feel free to open an issue. We welcome any and all contributions. We listen to all your questions and are always active on the [Snowflakes Discord server] (https://discord.gg/cgSz2XxbAx).
+
+## License
+
+MIT Licensed
