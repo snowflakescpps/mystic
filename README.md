@@ -64,16 +64,16 @@ MIT Licensed
 
 Mystic can be run as a normal Python program on any operating system.
 
-`` `shell
+```shell
 $ git clone https://github.com/snowflakescpps/mystic
 $ cd mystic
 $ pip install -r requirements.txt
 $ python bootstrap.py login
-`` ''
+```
 
 ## Contributing
 
-: heartpulse: We are so happy to hear of your interest!
+:heartpulse: We are so happy to hear of your interest!
 
 If you have suggestions on how this project can be improved or want to report a bug, please feel free to open an issue. We welcome any and all contributions. We listen to all your questions and are always active on the [Snowflakes Discord server] (https://discord.gg/cgSz2XxbAx).
 
